@@ -12,3 +12,138 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+/* task 2 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  height: 300px;
+ }
+
+ .gallery > li {
+  list-style: none;
+ }
+ .task2-item > img {
+  object-fit: cover;
+ }
+
+ /* task 4 */
+
+ .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-form > label {
+  display: flex;
+  flex-direction: column;
+  color: #2e2f42;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.input-style {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0 10px;
+}
+.login-form > button {
+  margin-top: 16px;
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.login-form > button:hover {
+  background: #6c8cff;
+}
+
+/* task 5 */
+.widget {
+  padding-left: 88px;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+.widget > p {
+  margin-bottom: 16px;
+}
+.widget > button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.widget > button:hover {
+  background: #6C8CFF;
+}
+
+/* task 6 */
+.boxes-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  row-gap: 32px;
+  margin-top: 32px;
+}
+.controls-style {
+  display: flex;
+  gap: 16px;
+}
+.controls-style > input {
+  width: 150px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.controls-style > button {
+  width: 120px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+.create-btn {
+  background: #4e75ff;
+}
+.create-btn:hover {
+  background: #6c8cff;
+}
+.destroy-btn {
+  background: #ff4e4e;
+}
+
+.destroy-btn:hover {
+  background: #ff7070;
+}
