@@ -24,7 +24,7 @@ body {
  .gallery > li {
   list-style: none;
  }
- .task2-item > img {
+ .gallery-item > img {
   object-fit: cover;
  }
 

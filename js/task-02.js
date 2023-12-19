@@ -27,13 +27,12 @@ const images = [
 
 const createMarkup = ({ url, alt }) =>
   `
-<li class="task2-item">
+<li class="gallery-item">
 <img src="${url}" alt="${alt}" width="360" height="300">
 </li>
 `;
 
 const markup = images.map(createMarkup).join("");
-console.log(markup);
 
 const galleryRef = document.querySelector(".gallery");
 galleryRef.insertAdjacentHTML("beforeend", markup);
