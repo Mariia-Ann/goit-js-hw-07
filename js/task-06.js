@@ -16,9 +16,9 @@ function destroyBoxes() {
 function createBoxes(amount) {
   destroyBoxes();
   for (let i = 0; i < amount; i++) {
-    let usedNumberFirst = 30;
-    let usedNumberSecond = 10;
-    let size = usedNumberFirst + usedNumberSecond * i;
+    const startSize = 30;
+    const sizeIncrement = 10;
+    let size = startSize + sizeIncrement * i;
     const divBox = document.createElement('div');
     divBox.style.cssText = `width: ${size}px; height: ${size}px; background-color: ${getRandomHexColor()}`;
     boxesRef.insertAdjacentElement('beforeend', divBox);
